@@ -96,7 +96,6 @@ p {
     letter-spacing: 0.015em;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1;
     color: #fff;
     text-decoration: none;
     -webkit-transition: all 0.4s;
@@ -106,7 +105,8 @@ p {
 }
 
 .btn:hover {
-    color: #586e75;
+    opacity: 0.5;
+    transform: scale(1.1);
 }
 
 @media only screen and (max-width: 1000px) {
