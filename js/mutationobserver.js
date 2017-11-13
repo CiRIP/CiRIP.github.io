@@ -5,7 +5,7 @@ addEventListener('DOMContentLoaded', function (e) {
 		var reload = false;
 
 		records.forEach(function (record) {
-			if (record.type === 'attributes' && record.target.matches && record.target.matches('body, #content, #overlay') && record.attributeName === 'style') {
+			if (record.type === 'attributes' && record.target.matches && record.target.matches('body, #intro, #particles') && record.attributeName === 'style') {
 				console.log('style attr changed on \n\t\t\t\t\t\t\t\t\t\t ' + (record.target.id || record.target.tagName));
 				reload = true;
 			}
